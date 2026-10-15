@@ -1,0 +1,12 @@
+[package]
+name = "discord-tee"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "discord-tee"
+path = "src/main.rs"
+
+[dependencies]
+serde_json = "1.0.154"
+ureq = { version = "2", features = ["json"] }
